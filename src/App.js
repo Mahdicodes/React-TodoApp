@@ -3,8 +3,6 @@ import List from "./components/List/List";
 import AddForm from "./components/Forms/AddForm";
 import "./App.css";
 
-// Todo
-// Delete Bug
 
 class App extends Component {
   constructor() {
