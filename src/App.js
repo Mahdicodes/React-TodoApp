@@ -10,7 +10,7 @@ class App extends Component {
     this.state = {
       tasks: [],
     }
-    if (localStorage.getItem("tasks") !== "") {
+    if (localStorage.getItem("tasks") != null ) {
       const tasks = [...JSON.parse(localStorage.getItem("tasks"))];
       this.state.tasks = tasks;
     }
